@@ -1,0 +1,20 @@
+{
+  "name": "sipgate/sipgateio-incomingcall-php",
+  "description": "A demonstration on how to receive webhooks for incoming calls.",
+  "minimum-stability": "stable",
+  "license": "unlicense",
+  "authors": [
+    {
+      "name": "sipgate.io Team",
+      "email": "expert@sipgate.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sipgate\\Io\\Example\\IncomingCall\\": "src/"
+    }
+  },
+  "require": {
+    "steampixel/simple-php-router": "^0.7.1"
+  }
+}
