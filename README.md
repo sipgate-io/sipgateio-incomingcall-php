@@ -10,7 +10,7 @@ For further information regarding the push functionalities of sipgate.io please 
 - [How sipgate.io webhooks work](#How-sipgateio-webhooks-work)
 - [Configure webhooks for sipgate.io](#Configure-webhooks-for-sipgateio)
 - [Making your computer accessible from the internet](#Making-your-computer-accessible-from-the-internet)
-- [Install dependencies:](#install-dependencies)
+- [Install dependencies](#install-dependencies)
 - [Execution](#Execution)
 - [Common Issues](#Common-Issues)
 - [Contact Us](#Contact-Us)
@@ -74,7 +74,7 @@ You can configure webhooks for sipgate.io as follows:
 
 ## Making your computer accessible from the internet
 There are many possibilities to obtain an externally accessible address for your computer.
-In this example we use the service [localhost.run](localhost.run) which sets up a reverse ssh tunnel that forwards traffic from a public URL to your localhost.
+In this example we use the service [localhost.run](https://localhost.run/) which sets up a reverse ssh tunnel that forwards traffic from a public URL to your localhost.
 The following command creates a subdomain at localhost.run and sets up a tunnel between the public port 80 on their server and your localhost:8080:
 
 ```bash
