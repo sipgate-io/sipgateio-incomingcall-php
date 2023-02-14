@@ -1,1 +1,4 @@
 runtime: php55
+handlers:
+- url: /
+  script: src/router.php
