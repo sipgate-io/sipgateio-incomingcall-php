@@ -1,4 +1,5 @@
 runtime: php74
+entrypoint: serve src/router.php
 handlers:
 - url: /
   script: src/router.php
