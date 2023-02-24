@@ -96,9 +96,9 @@ Run the application:
 php -S localhost:8000 -t src/ src/router.php
 ```
 
-## Deployment in Google Cloud Engine
+## Deployment to Google Cloud App Engine
 
-To deploy this project in Google Cloud Engine please use our [sipgateio-google-deployer](https://github.com/sipgate-io/sipgateio-google-deployer).
+To deploy this project to Google Cloud App Engine, you might use our [sipgateio-google-deployer](https://github.com/sipgate-io/sipgateio-google-deployer).
 
 ## Common Issues
 
